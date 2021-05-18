@@ -1042,3 +1042,106 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.18-17.21.54:260][602]SourceControl: Commited [Maria's-Branch 0c526ee] Test.
 [2021.05.18-17.21.54:299][603]AssetCheck: New page: Asset Save: MyMap
 [2021.05.18-17.21.54:300][603]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-17.23.09:114][ 51]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2021.05.18-17.23.09:791][ 91]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2021.05.18-17.23.21:814][771]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2021.05.18-17.23.26:819][ 69]Cmd: TRANSACTION UNDO
+[2021.05.18-17.23.26:819][ 69]LogEditorTransaction: Undo Scale Actors
+[2021.05.18-17.23.27:225][ 69]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2021.05.18-17.23.27:760][ 96]Cmd: DELETE
+[2021.05.18-17.23.27:760][ 96]Cmd: ACTOR DELETE
+[2021.05.18-17.23.27:773][ 96]LogEditorActor: Deleted Actor: Actor
+[2021.05.18-17.23.27:784][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.18-17.23.27:786][ 96]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2021.05.18-17.23.31:421][298]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.05.18-17.23.36:192][569]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.18-17.23.39:787][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.05.18-17.23.39:974][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.18-17.23.39:986][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.05.18-17.23.40:013][775]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMapCF0C3EAD4A13F7849BF415BDF5AE6877.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap'
+[2021.05.18-17.23.40:032][775]LogFileHelpers: Saving map 'MyMap' took 0.059
+[2021.05.18-17.23.40:049][775]AssetCheck: New page: Asset Save: MyMap
+[2021.05.18-17.23.40:049][775]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-17.23.48:169][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:169][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:169][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:169][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:169][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:170][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:171][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:171][125]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.23.48:767][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.18-17.23.48:782][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.05.18-17.23.48:822][125]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap57791F3D4EE4626F3EC4B1832681D3AE.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap'
+[2021.05.18-17.23.48:838][125]LogFileHelpers: Saving map 'MyMap' took 0.072
+[2021.05.18-17.23.55:967][125]LogSlate: Window 'Enviar archivos' being destroyed
+[2021.05.18-17.23.56:683][125]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.23.56:683][125]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.23.56:740][126]AssetCheck: New page: Asset Save: MyMap
+[2021.05.18-17.23.56:740][126]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-17.24.24:602][ 44]LogSlate: Window 'Registro del mensaje' being destroyed
+[2021.05.18-17.24.24:637][ 44]LogSlate: Window 'Registro del mensaje' being destroyed
+[2021.05.18-17.24.30:121][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.05.18-17.24.44:114][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:114][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:114][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:114][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:114][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:115][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:116][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.44:117][270]SourceControl: fatal: D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Program Files/UnrealEngine/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/marys/Documents/Unreal Projects/MyProject2'
+[2021.05.18-17.24.45:439][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.18-17.24.45:462][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.05.18-17.24.45:540][270]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap472CF76443CA11FB761AAB9B2606C5DF.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap'
+[2021.05.18-17.24.45:574][270]LogFileHelpers: Saving map 'MyMap' took 0.137
+[2021.05.18-17.24.52:129][270]LogSlate: Window 'Enviar archivos' being destroyed
+[2021.05.18-17.24.52:941][270]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.24.52:941][270]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.24.53:018][271]AssetCheck: New page: Asset Save: MyMap
+[2021.05.18-17.24.53:018][271]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-17.25.23:277][613]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.25.23:277][613]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.25.41:168][866]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.25.41:168][866]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.25.45:888][  1]Cmd: EDCALLBACK SURFPROPS
+[2021.05.18-17.26.00:223][287]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.18-17.26.11:206][589]Cmd: TRANSACTION UNDO
+[2021.05.18-17.26.11:206][589]LogEditorTransaction: Undo Scale Actors
+[2021.05.18-17.26.17:878][779]Cmd: TRANSACTION UNDO
+[2021.05.18-17.26.17:878][779]LogEditorTransaction: Undo Scale Actors
+[2021.05.18-17.26.27:709][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.18-17.26.50:641][436]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2021.05.18-17.26.51:595][436]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.26.51:595][436]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.26.51:677][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.18-17.26.51:706][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.05.18-17.26.51:788][436]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap5C84A8A046B3485C456E32AF1FC85039.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap'
+[2021.05.18-17.26.51:836][436]LogFileHelpers: Saving map 'MyMap' took 0.163
+[2021.05.18-17.26.51:874][436]AssetCheck: New page: Asset Save: MyMap
+[2021.05.18-17.26.51:874][436]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
