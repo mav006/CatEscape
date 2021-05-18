@@ -1145,3 +1145,519 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.18-17.26.51:836][436]LogFileHelpers: Saving map 'MyMap' took 0.163
 [2021.05.18-17.26.51:874][436]AssetCheck: New page: Asset Save: MyMap
 [2021.05.18-17.26.51:874][436]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-17.28.29:791][471]LogSlate: Took 0.014165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.18-17.31.20:406][477]Cmd: TRANSACTION UNDO
+[2021.05.18-17.31.20:406][477]LogEditorTransaction: Undo Scale Actors
+[2021.05.18-17.31.30:022][  2]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-17.31.30:045][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.18-17.31.30:046][  2]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 20:31:30)
+[2021.05.18-17.31.30:046][  2]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-17.31.30:052][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005736s)
+[2021.05.18-17.31.30:054][  2]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-17.31.30:055][  2]LogPlayLevel: PIE: World Init took: (0.003446s)
+[2021.05.18-17.31.30:055][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.009476s)
+[2021.05.18-17.31.30:070][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.05.18-17.31.30:072][  2]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-17.31.30:072][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-17.31.30:072][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-17.31.30:073][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-17.31.30:074][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-17.31.30:082][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-17.31.30:082][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-17.31.30:104][  2]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-17.31.30:105][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-17.31.30:105][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-17.31.30:105][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-17.31.30:106][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-17.31.30:106][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-17.31.30:106][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-17.31.30:137][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-17.31.30:137][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-17.31.30:137][  2]LogInit: FAudioDevice initialized.
+[2021.05.18-17.31.30:137][  2]LogAudio: Display: Audio Device (ID: 3) registered with world 'MyMap'.
+[2021.05.18-17.31.30:153][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-17.31.30:155][  2]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-18.31.30
+[2021.05.18-17.31.30:155][  2]LogWorld: Bringing up level for play took: 0.000988
+[2021.05.18-17.31.30:155][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.05.18-17.31.30:161][  2]PIE: El servidor ha iniciado la sesión
+[2021.05.18-17.31.30:162][  2]PIE: Play in editor total start time 0,122 seconds.
+[2021.05.18-17.31.50:055][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-17.31.50:055][163]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-17.31.50:057][163]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.31.50:057][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.31.50:070][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-17.31.50:092][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.31.50:102][163]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-17.31.50:102][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-17.31.50:104][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-17.31.50:139][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-17.31.50:142][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.05.18-17.31.50:183][164]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.05.18-17.36.08:550][826]LogDirectoryWatcher: A directory notification failed for 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2021.05.18-17.36.08:550][826]LogDirectoryWatcher: A directory notification failed for 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Developers/marys/Collections/' because it could not be accessed. Aborting watch request...
+[2021.05.18-17.36.08:550][826]LogDirectoryWatcher: A directory notification failed for 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2021.05.18-17.37.11:296][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.05.18-17.37.11:308][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/Scenes/MyMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.05.18-17.37.11:333][130]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap_Auto1DB3CA987469966665099D6B4DEFDDD2A.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/Scenes/MyMap_Auto1.umap'
+[2021.05.18-17.37.11:341][130]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/MyMap' took 0.053
+[2021.05.18-17.37.11:341][130]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2021.05.18-17.37.49:233][516]LogContentBrowser: Deferred new asset file creation: ThirdPersonCharacter1
+[2021.05.18-17.37.49:266][516]LogContentBrowser: Creating deferred item: ThirdPersonCharacter1
+[2021.05.18-17.37.58:600][827]LogContentBrowser: Attempting asset rename: ThirdPersonCharacter1 -> CatCharacter
+[2021.05.18-17.37.59:191][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.05.18-17.37.59:718][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/CatCharacter" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset" SILENT=true
+[2021.05.18-17.37.59:893][827]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/CatCharacter5AF8BF39402482B8CE832C88BAB58CAD.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset'
+[2021.05.18-17.38.00:792][827]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.38.00:792][827]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.38.01:584][827]LogContentBrowser: End creating deferred item ThirdPersonCharacter1
+[2021.05.18-17.38.01:609][827]AssetCheck: New page: Asset Save: CatCharacter
+[2021.05.18-17.38.01:609][827]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.38.06:192][910]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.38.07:468][910]LogBlueprintEditor: Perf: 0.9 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2021.05.18-17.38.07:468][910]LogBlueprintEditor: Perf: 0.4 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2021.05.18-17.38.07:468][910]LogBlueprintEditor: Perf: 0.3 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary
+[2021.05.18-17.38.07:943][910]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0041 seconds. Added 126 classes and 0 folders.
+[2021.05.18-17.38.11:905][910]LogSlate: Took 0.023260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.18-17.38.51:525][405]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2021.05.18-17.39.35:182][880]LogTexture: Display: Building textures: PolyArt_Cats_Spec (AutoDXT, 1024X1024)
+[2021.05.18-17.39.35:182][880]LogTexture: Display: Building textures: PolyArt_Cats_color (AutoDXT, 1024X1024)
+[2021.05.18-17.39.35:183][880]LogTexture: Display: Building textures: PolyArt_Cats_Normal (BC5, 1024X1024)
+[2021.05.18-17.39.35:183][880]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_black...
+[2021.05.18-17.39.35:254][880]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_black.Mesh_Cat_black
+[2021.05.18-17.39.35:269][880]LogMaterial: Display: Missing cached shader map for material M_LowPoly_Cat, compiling. 
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.05.18-17.39.35:502][880]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.05.18-17.39.35:511][880]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeleton_Cat, removing AnimBP from actor.
+[2021.05.18-17.39.35:530][880]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeleton_Cat, removing AnimBP from actor.
+[2021.05.18-17.39.35:530][880]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Skeleton_Cat, removing AnimBP from actor.
+[2021.05.18-17.40.00:325][ 71]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Red_White...
+[2021.05.18-17.40.00:366][ 71]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Red_White.Mesh_Cat_Red_White
+[2021.05.18-17.40.18:070][179]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Siamese...
+[2021.05.18-17.40.18:116][179]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Siamese.Mesh_Cat_Siamese
+[2021.05.18-17.40.55:541][531]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Sphynx...
+[2021.05.18-17.40.55:575][531]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Sphynx.Mesh_Cat_Sphynx
+[2021.05.18-17.41.00:496][576]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Bobtail...
+[2021.05.18-17.41.00:539][576]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Bobtail.Mesh_Cat_Bobtail
+[2021.05.18-17.41.03:998][608]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Black_White...
+[2021.05.18-17.41.04:024][608]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Black_White.Mesh_Cat_Black_White
+[2021.05.18-17.41.08:927][658]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Blue...
+[2021.05.18-17.41.08:950][658]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Blue.Mesh_Cat_Blue
+[2021.05.18-17.41.12:521][694]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Brit...
+[2021.05.18-17.41.12:541][694]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Brit.Mesh_Cat_Brit
+[2021.05.18-17.41.15:620][725]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_Abyss...
+[2021.05.18-17.41.15:643][725]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_Abyss.Mesh_Cat_Abyss
+[2021.05.18-17.41.23:229][810]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_cream...
+[2021.05.18-17.41.23:255][810]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_cream.Mesh_Cat_cream
+[2021.05.18-17.41.25:698][836]LogSkeletalMesh: Building Skeletal Mesh Mesh_Cat_brown...
+[2021.05.18-17.41.25:720][836]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/LowPoly_Cat/Meshes/Mesh_Cat_brown.Mesh_Cat_brown
+[2021.05.18-17.42.12:176][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/CatCharacter" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset" SILENT=true
+[2021.05.18-17.42.12:292][601]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/CatCharacter385C2270487BD95DB7145F85C0F5FC49.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset'
+[2021.05.18-17.42.12:345][601]AssetCheck: New page: Asset Save: CatCharacter
+[2021.05.18-17.42.12:346][601]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.42.19:342][703]BlueprintLog: New page: Compilar CatCharacter
+[2021.05.18-17.42.19:822][703]LogUObjectHash: Compacting FUObjectHashTables data took  10.65ms
+[2021.05.18-17.42.40:294][ 98]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.42.40:338][ 98]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.42.40:383][ 98]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.42.40:384][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.43.03:167][635]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.05.18-17.43.27:457][ 41]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/ThirdPersonGameMode542E4FC047067F8030FF84A21E0A1EBD.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2021.05.18-17.43.27:509][ 41]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2021.05.18-17.43.27:509][ 41]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.05.18-17.43.29:656][ 84]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2021.05.18-17.43.29:685][ 84]LogSlate: Window 'ThirdPersonGameMode' being destroyed
+[2021.05.18-17.43.29:724][ 84]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.43.29:724][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.43.30:846][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-17.43.30:897][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.18-17.43.30:897][ 96]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 20:43:30)
+[2021.05.18-17.43.30:898][ 96]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-17.43.30:927][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028857s)
+[2021.05.18-17.43.30:932][ 96]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-17.43.30:935][ 96]LogPlayLevel: PIE: World Init took: (0.007478s)
+[2021.05.18-17.43.30:935][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.037556s)
+[2021.05.18-17.43.31:031][ 96]LogUObjectHash: Compacting FUObjectHashTables data took  14.33ms
+[2021.05.18-17.43.31:039][ 96]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.05.18-17.43.31:039][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-17.43.31:039][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-17.43.31:039][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-17.43.31:039][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-17.43.31:039][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-17.43.31:040][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-17.43.31:040][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-17.43.31:040][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-17.43.31:042][ 96]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-17.43.31:042][ 96]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-17.43.31:070][ 96]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-17.43.31:070][ 96]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-17.43.31:147][ 96]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-17.43.31:147][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-17.43.31:147][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-17.43.31:149][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-17.43.31:150][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-17.43.31:150][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-17.43.31:150][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-17.43.31:250][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-17.43.31:250][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-17.43.31:251][ 96]LogInit: FAudioDevice initialized.
+[2021.05.18-17.43.31:251][ 96]LogAudio: Display: Audio Device (ID: 4) registered with world 'MyMap'.
+[2021.05.18-17.43.31:276][ 96]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-17.43.31:279][ 96]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-18.43.31
+[2021.05.18-17.43.31:280][ 96]LogWorld: Bringing up level for play took: 0.001835
+[2021.05.18-17.43.31:280][ 96]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.05.18-17.43.31:296][ 96]PIE: El servidor ha iniciado la sesión
+[2021.05.18-17.43.31:299][ 96]PIE: Play in editor total start time 0,42 seconds.
+[2021.05.18-17.43.43:570][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-17.43.43:570][548]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-17.43.43:570][548]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.43.43:571][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.43.43:596][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-17.43.43:675][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.43.43:756][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-17.43.43:758][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-17.43.43:761][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-17.43.43:855][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-17.43.43:864][548]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2021.05.18-17.43.43:966][549]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.05.18-17.47.32:123][106]LogSlate: Window 'Escoger Esqueleto' being destroyed
+[2021.05.18-17.47.32:147][106]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2021.05.18-17.47.32:210][106]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2021.05.18-17.47.45:069][470]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> NewBlendSpace1D
+[2021.05.18-17.47.45:479][470]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2021.05.18-17.48.02:313][839]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> LP_BS
+[2021.05.18-17.48.05:146][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LowPoly_Cat/Animations/LP_BS" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/LowPoly_Cat/Animations/LP_BS.uasset" SILENT=true
+[2021.05.18-17.48.05:168][839]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/LP_BS6D3D207346FFC026DC1133BC81521E48.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/LowPoly_Cat/Animations/LP_BS.uasset'
+[2021.05.18-17.48.06:044][839]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-17.48.06:044][839]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-17.48.07:101][839]LogUObjectHash: Compacting FUObjectHashTables data took   8.49ms
+[2021.05.18-17.48.07:219][839]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2021.05.18-17.48.07:292][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.05.18-17.48.08:201][839]AssetCheck: New page: Asset Save: LP_BS
+[2021.05.18-17.48.08:202][839]LogContentValidation: Display: Validating BlendSpace1D /Game/LowPoly_Cat/Animations/LP_BS.LP_BS
+[2021.05.18-17.48.12:706][913]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/LowPoly_Cat/Animations/LP_BS.LP_BS
+[2021.05.18-17.48.13:047][913]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2021.05.18-17.48.13:995][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.18-17.48.14:011][913]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2021.05.18-17.48.16:483][913]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.05.18-17.49.10:598][766]LogUObjectHash: Compacting FUObjectHashTables data took  12.89ms
+[2021.05.18-17.49.10:614][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/Scenes/MyMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.05.18-17.49.10:677][766]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap_Auto2E66A20994CBEA7F3C16855AEC4F11703.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/Autosaves/Game/Scenes/MyMap_Auto2.umap'
+[2021.05.18-17.49.10:686][766]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/MyMap' took 0.362
+[2021.05.18-17.49.10:686][766]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.362
+[2021.05.18-17.50.07:604][668]LogSlate: Window 'LP_BS' being destroyed
+[2021.05.18-17.50.07:632][668]LogSlate: Window 'LP_BS' being destroyed
+[2021.05.18-17.50.07:634][668]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.50.07:635][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.50.08:295][668]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.50.08:295][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.50.13:837][762]LogUObjectHash: Compacting FUObjectHashTables data took  14.84ms
+[2021.05.18-17.50.18:954][762]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.18-17.50.35:723][105]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.18-17.50.35:873][105]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.05.18-17.50.59:096][105]LogSlate: Window 'Crear Blueprint de la animación' being destroyed
+[2021.05.18-17.50.59:113][105]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2021.05.18-17.50.59:141][105]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2021.05.18-17.51.08:219][392]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> LP_BP
+[2021.05.18-17.51.08:589][392]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2021.05.18-17.51.17:509][566]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/LowPoly_Cat/Animations/LP_BP.LP_BP
+[2021.05.18-17.51.17:894][566]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.18-17.51.53:007][940]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-17.51.53:075][940]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.18-17.51.53:079][940]LogPlayLevel: [PlayLevel] Compiling LP_BP before play...
+[2021.05.18-17.51.53:395][940]LogUObjectHash: Compacting FUObjectHashTables data took  11.28ms
+[2021.05.18-17.51.53:400][940]LogPlayLevel: PlayLevel: Blueprint regeneration took 325 ms (1 blueprints)
+[2021.05.18-17.51.53:400][940]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 20:51:53)
+[2021.05.18-17.51.53:403][940]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-17.51.53:424][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020936s)
+[2021.05.18-17.51.53:430][940]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-17.51.53:432][940]LogPlayLevel: PIE: World Init took: (0.007036s)
+[2021.05.18-17.51.53:432][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.028787s)
+[2021.05.18-17.51.53:558][940]LogUObjectHash: Compacting FUObjectHashTables data took  12.07ms
+[2021.05.18-17.51.53:560][940]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-17.51.53:560][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-17.51.53:560][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-17.51.53:564][940]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-17.51.53:564][940]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-17.51.53:591][940]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-17.51.53:592][940]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-17.51.53:689][940]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-17.51.53:691][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-17.51.53:692][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-17.51.53:692][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-17.51.53:696][940]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-17.51.53:697][940]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-17.51.53:697][940]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-17.51.53:830][940]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-17.51.53:830][940]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-17.51.53:830][940]LogInit: FAudioDevice initialized.
+[2021.05.18-17.51.53:830][940]LogAudio: Display: Audio Device (ID: 5) registered with world 'MyMap'.
+[2021.05.18-17.51.53:974][940]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-17.51.53:984][940]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-18.51.53
+[2021.05.18-17.51.53:987][940]LogWorld: Bringing up level for play took: 0.006833
+[2021.05.18-17.51.53:988][940]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.05.18-17.51.54:001][940]PIE: El servidor ha iniciado la sesión
+[2021.05.18-17.51.54:006][940]PIE: Play in editor total start time 0,953 seconds.
+[2021.05.18-17.51.54:281][941]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068996 > MaxSimulationTimeStep (0.050) for 'CatCharacter_C_0', movement 'Walking'
+[2021.05.18-17.52.47:484][315]LogSlate: Took 0.095384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.18-17.55.22:595][784]LogSlate: Window 'LP_BP' being destroyed
+[2021.05.18-17.55.22:664][784]LogSlate: Window 'LP_BP' being destroyed
+[2021.05.18-17.55.22:777][784]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.55.22:777][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.55.22:839][784]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.55.22:840][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.55.23:376][784]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.55.23:377][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.55.36:196][ 27]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.56.30:735][621]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.56.30:818][621]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.56.30:876][621]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.56.30:876][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.56.32:113][641]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.57.06:882][110]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.57.06:976][110]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.57.07:012][110]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.57.07:013][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-17.57.15:438][323]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-17.59.33:734][992]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.59.33:803][992]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-17.59.33:829][992]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-17.59.33:830][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.08.46:145][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.08.46:146][781]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.08.46:147][781]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.08.46:148][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.08.46:196][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-18.08.46:344][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.08.46:450][781]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-18.08.46:453][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.08.46:459][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.08.46:598][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.08.46:625][781]LogUObjectHash: Compacting FUObjectHashTables data took  19.08ms
+[2021.05.18-18.08.46:789][782]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.05.18-18.09.41:094][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.18-18.10.04:233][811]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.18-18.10.21:743][946]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.18-18.10.21:831][946]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.18-18.10.21:873][946]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.10.21:874][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.10.24:144][967]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-18.11.17:372][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/CatCharacter" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset" SILENT=true
+[2021.05.18-18.11.17:594][384]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/CatCharacterAFF0D9264CF8EF05E81FD593ACEE5E55.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset'
+[2021.05.18-18.11.17:650][384]AssetCheck: New page: Asset Save: CatCharacter
+[2021.05.18-18.11.17:650][384]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-18.11.19:360][402]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-18.11.19:398][402]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-18.11.19:433][402]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.11.19:434][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.11.22:498][453]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-18.11.22:568][453]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.18-18.11.22:573][453]LogPlayLevel: [PlayLevel] Compiling CatCharacter before play...
+[2021.05.18-18.11.22:716][453]LogPlayLevel: [PlayLevel] Compiling LP_BP before play...
+[2021.05.18-18.11.23:062][453]LogClass: Warning: Type mismatch in NewVar_Speed of LP_BP_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
+[2021.05.18-18.11.23:077][453]LogBlueprint: Warning: [AssetLog] /Game/LowPoly_Cat/Animations/LP_BP.LP_BP (no disk path found): [Compiler] Can't parse default value 'False' for  . Property: NewVar_Speed.
+[2021.05.18-18.11.23:311][453]LogUObjectHash: Compacting FUObjectHashTables data took  26.44ms
+[2021.05.18-18.11.23:328][453]LogPlayLevel: PlayLevel: Blueprint regeneration took 760 ms (2 blueprints)
+[2021.05.18-18.11.23:329][453]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 21:11:23)
+[2021.05.18-18.11.23:330][453]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.11.23:365][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035263s)
+[2021.05.18-18.11.23:374][453]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-18.11.23:376][453]LogPlayLevel: PIE: World Init took: (0.009988s)
+[2021.05.18-18.11.23:376][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.046548s)
+[2021.05.18-18.11.23:492][453]LogUObjectHash: Compacting FUObjectHashTables data took  12.84ms
+[2021.05.18-18.11.23:493][453]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-18.11.23:494][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-18.11.23:494][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-18.11.23:496][453]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-18.11.23:497][453]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-18.11.23:527][453]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-18.11.23:527][453]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-18.11.23:616][453]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-18.11.23:618][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-18.11.23:618][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-18.11.23:619][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-18.11.23:620][453]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-18.11.23:620][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-18.11.23:620][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-18.11.23:729][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-18.11.23:729][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-18.11.23:729][453]LogInit: FAudioDevice initialized.
+[2021.05.18-18.11.23:729][453]LogAudio: Display: Audio Device (ID: 6) registered with world 'MyMap'.
+[2021.05.18-18.11.23:767][453]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-18.11.23:774][453]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-19.11.23
+[2021.05.18-18.11.23:775][453]LogWorld: Bringing up level for play took: 0.003384
+[2021.05.18-18.11.23:776][453]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.18-18.11.23:794][453]PIE: El servidor ha iniciado la sesión
+[2021.05.18-18.11.23:800][453]PIE: Play in editor total start time 1,256 seconds.
+[2021.05.18-18.11.28:596][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.11.28:597][579]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.11.28:597][579]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.11.28:598][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.11.28:627][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-18.11.28:733][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.11.28:836][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-18.11.28:839][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.11.28:844][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.11.28:972][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.11.28:988][579]LogUObjectHash: Compacting FUObjectHashTables data took  12.18ms
+[2021.05.18-18.11.29:165][580]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.18-18.13.20:077][ 95]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-18.13.36:913][196]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.18-18.14.11:308][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/CatCharacter" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset" SILENT=true
+[2021.05.18-18.14.11:605][513]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/CatCharacter9C27C7F84B1589BDA35846922FD68839.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/ThirdPersonBP/Blueprints/CatCharacter.uasset'
+[2021.05.18-18.14.11:708][513]AssetCheck: New page: Asset Save: CatCharacter
+[2021.05.18-18.14.11:708][513]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/CatCharacter.CatCharacter
+[2021.05.18-18.14.16:424][562]BlueprintLog: New page: Compilar CatCharacter
+[2021.05.18-18.14.16:925][562]LogUObjectHash: Compacting FUObjectHashTables data took  17.93ms
+[2021.05.18-18.14.26:707][685]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-18.14.26:786][685]LogSlate: Window 'CatCharacter' being destroyed
+[2021.05.18-18.14.26:826][685]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.14.26:826][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.14.27:776][694]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-18.14.27:855][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.18-18.14.27:855][694]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 21:14:27)
+[2021.05.18-18.14.27:856][694]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.14.27:896][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039197s)
+[2021.05.18-18.14.27:904][694]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-18.14.27:906][694]LogPlayLevel: PIE: World Init took: (0.009891s)
+[2021.05.18-18.14.27:907][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.050307s)
+[2021.05.18-18.14.28:034][694]LogUObjectHash: Compacting FUObjectHashTables data took  15.90ms
+[2021.05.18-18.14.28:045][694]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.05.18-18.14.28:045][694]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-18.14.28:045][694]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-18.14.28:046][694]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-18.14.28:046][694]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-18.14.28:046][694]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-18.14.28:046][694]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-18.14.28:046][694]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-18.14.28:047][694]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-18.14.28:052][694]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-18.14.28:052][694]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-18.14.28:094][694]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-18.14.28:094][694]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-18.14.28:195][694]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-18.14.28:197][694]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-18.14.28:198][694]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-18.14.28:198][694]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-18.14.28:201][694]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-18.14.28:202][694]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-18.14.28:202][694]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-18.14.28:345][694]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-18.14.28:346][694]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-18.14.28:346][694]LogInit: FAudioDevice initialized.
+[2021.05.18-18.14.28:346][694]LogAudio: Display: Audio Device (ID: 7) registered with world 'MyMap'.
+[2021.05.18-18.14.28:394][694]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-18.14.28:402][694]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-19.14.28
+[2021.05.18-18.14.28:403][694]LogWorld: Bringing up level for play took: 0.004215
+[2021.05.18-18.14.28:404][694]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.05.18-18.14.28:420][694]PIE: El servidor ha iniciado la sesión
+[2021.05.18-18.14.28:426][694]PIE: Play in editor total start time 0,599 seconds.
+[2021.05.18-18.14.33:961][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.14.33:961][839]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.14.33:962][839]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.14.33:963][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.14.34:011][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-18.14.34:157][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.14.34:268][839]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-18.14.34:270][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.14.34:278][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.14.34:453][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.14.34:475][839]LogUObjectHash: Compacting FUObjectHashTables data took  15.29ms
+[2021.05.18-18.14.34:680][840]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.05.18-18.14.49:304][ 22]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/LowPoly_Cat/Animations/LP_BP.LP_BP
+[2021.05.18-18.14.49:379][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.18-18.15.11:793][191]LogSlate: Window 'LP_BP' being destroyed
+[2021.05.18-18.15.11:859][191]LogSlate: Window 'LP_BP' being destroyed
+[2021.05.18-18.15.11:927][191]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.15.11:927][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.15.12:002][191]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.15.12:002][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.15.12:590][191]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.15.12:591][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.16.57:048][288]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.18-18.16.57:097][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.18-18.16.57:098][288]PIE: New page: Sesión PIE (reproducción en el editor): MyMap (18 may. 2021 21:16:57)
+[2021.05.18-18.16.57:098][288]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.16.57:120][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021226s)
+[2021.05.18-18.16.57:124][288]LogAIModule: Creating AISystem for world MyMap
+[2021.05.18-18.16.57:125][288]LogPlayLevel: PIE: World Init took: (0.005077s)
+[2021.05.18-18.16.57:125][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MyMap.MyMap to /Game/Scenes/UEDPIE_0_MyMap.MyMap (0.027148s)
+[2021.05.18-18.16.57:233][288]LogUObjectHash: Compacting FUObjectHashTables data took   8.99ms
+[2021.05.18-18.16.57:245][288]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.05.18-18.16.57:245][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.18-18.16.57:245][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.18-18.16.57:245][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.18-18.16.57:246][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.18-18.16.57:246][288]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.18-18.16.57:246][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.18-18.16.57:246][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.18-18.16.57:246][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.18-18.16.57:247][288]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.18-18.16.57:247][288]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.18-18.16.57:269][288]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.18-18.16.57:269][288]LogAudioMixer: Display: 1: FrontRight
+[2021.05.18-18.16.57:337][288]LogAudioMixer: Display: Using Audio Device Altavoces (Razer Kraken X USB)
+[2021.05.18-18.16.57:338][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.18-18.16.57:338][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.18-18.16.57:338][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.18-18.16.57:340][288]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.18-18.16.57:340][288]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.18-18.16.57:341][288]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.18-18.16.57:426][288]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.18-18.16.57:426][288]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.18-18.16.57:426][288]LogInit: FAudioDevice initialized.
+[2021.05.18-18.16.57:426][288]LogAudio: Display: Audio Device (ID: 8) registered with world 'MyMap'.
+[2021.05.18-18.16.57:455][288]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.18-18.16.57:459][288]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2021.05.18-19.16.57
+[2021.05.18-18.16.57:459][288]LogWorld: Bringing up level for play took: 0.002220
+[2021.05.18-18.16.57:461][288]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.05.18-18.16.57:469][288]PIE: El servidor ha iniciado la sesión
+[2021.05.18-18.16.57:474][288]PIE: Play in editor total start time 0,397 seconds.
+[2021.05.18-18.17.06:787][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.17.06:788][560]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_MyMap
+[2021.05.18-18.17.06:789][560]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.18-18.17.06:790][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.17.06:819][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.18-18.17.06:897][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.18-18.17.06:974][560]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.18-18.17.06:975][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.17.06:978][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.18-18.17.07:069][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.18-18.17.07:081][560]LogUObjectHash: Compacting FUObjectHashTables data took   7.62ms
+[2021.05.18-18.17.07:189][561]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.05.18-18.18.03:587][790]LogUObjectHash: Compacting FUObjectHashTables data took  10.33ms
+[2021.05.18-18.18.04:620][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MyMap" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.18-18.18.04:699][790]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.05.18-18.18.04:776][790]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/MyMap37770B66410F15CDFAD1BEA11E26B0C6.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/Scenes/MyMap.umap'
+[2021.05.18-18.18.04:833][790]LogFileHelpers: Saving map 'MyMap' took 0.216
+[2021.05.18-18.18.04:901][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LowPoly_Cat/Animations/LP_BP" FILE="C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/LowPoly_Cat/Animations/LP_BP.uasset" SILENT=true
+[2021.05.18-18.18.05:297][790]LogSavePackage: Moving 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Saved/LP_BP3F323B434EEAEFDEBC865DBC9FE82FC0.tmp' to 'C:/Users/marys/Documents/Unreal Projects/MyProject2/Content/LowPoly_Cat/Animations/LP_BP.uasset'
+[2021.05.18-18.18.06:586][790]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2021.05.18-18.18.06:586][790]SourceControl: Error: fatal: the remote end hung up unexpectedly
+[2021.05.18-18.18.06:644][790]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.18-18.18.06:645][790]LogContentValidation: Display: Validating World /Game/Scenes/MyMap.MyMap
+[2021.05.18-18.18.06:645][790]LogContentValidation: Display: Validating AnimBlueprint /Game/LowPoly_Cat/Animations/LP_BP.LP_BP
+[2021.05.18-18.18.18:297][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.18-18.18.25:277][152]LogUObjectHash: Compacting FUObjectHashTables data took  20.44ms
+[2021.05.18-18.18.43:067][517]LogUObjectHash: Compacting FUObjectHashTables data took  12.82ms
